@@ -7,26 +7,43 @@
     <title>CoH2</title>
   </head>
   <body>
-    <header>
-      <ul>
-        <li><button class="1v1">1v1</button></li>
-        <li><button class="2v2">2v2</button></li>
-        <li><button class="3v3">3v3</button></li>
-        <li><button class="4v4">4v4</button></li>
-      </ul>
-    </header>
-    <section>
-      <div>
-        <ul class="our-forces">
-          <li>US</li>
-        </ul>
-        <p>VS</p>
-        <ul class="enemies">
-          <li>OSU</li>
-        </ul>
+    <header class="main-header">
+      <div class="main-header-area">
+        <nav class="main-nav">
+          <ul class="main-nav-list">
+            <li class="main-nav-li"><button class="main-nav-btn btn1v1">1v1</button></li>
+            <li class="main-nav-li"><button class="main-nav-btn btn2v2">2v2</button></li>
+            <li class="main-nav-li"><button class="main-nav-btn btn3v3">3v3</button></li>
+            <li class="main-nav-li"><button class="main-nav-btn btn4v4">4v4</button></li>
+          </ul>
+        </nav>
       </div>
-      <div>
-        <p>map</p>
+    </header>
+    <section class="versus-viewer-section">
+      <div class="versus-viewer-contents-area">
+        <div class="versus-viewer">
+          <ul class="our-forces">
+            <li>
+              <div class="force">
+                <img src="./americans.png" alt="미국" />
+                <p class="force-name">미국</p>
+              </div>
+            </li>
+          </ul>
+          <p class="vs">VS</p>
+          <ul class="enemies">
+            <li class="force">
+              <div class="force"><img src="./OKW.png" alt="서독" /></div>
+              <p class="force-name">서독</p>
+            </li>
+          </ul>
+        </div>
+        <div class="map-viewer">
+          <p class="map-name">(2) Faymonville Approach</p>
+        </div>
+        <div class="matching-btn-container">
+          <button class="matching-btn">매칭</button>
+        </div>
       </div>
     </section>
   </body>

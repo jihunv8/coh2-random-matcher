@@ -1,0 +1,104 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: 0;
+  font-size: 1.6rem;
+}
+
+:root {
+  font-size: 62.5%;
+}
+
+button {
+  cursor: pointer;
+}
+
+ul {
+  list-style: none;
+}
+
+/* ========== header ========== */
+.main-header {
+  border-bottom: 1px solid #000;
+}
+
+.main-header-area {
+  max-width: 1280px;
+  margin: 0 auto;
+}
+
+.main-nav-list {
+  display: flex;
+  justify-content: center;
+}
+
+.main-nav-btn {
+  background-color: transparent;
+  border: none;
+  height: 70px;
+  padding: 0 40px;
+  font-size: 2.4rem;
+}
+
+.main-nav-btn:hover {
+  text-decoration: underline;
+}
+
+/* ========== section ========== */
+
+.versus-viewer-section {
+  margin-top: 80px;
+}
+
+.versus-viewer-contents-area {
+  max-width: 1280px;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.versus-viewer {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.vs {
+  font-size: 6.4rem;
+  margin: 0 50px;
+}
+
+.force {
+  max-width: 100%;
+}
+
+.force > img {
+  width: 100%;
+}
+
+.force-name {
+  font-size: 2.4rem;
+  text-align: center;
+}
+
+.map-viewer {
+  margin-top: 80px;
+}
+
+.map-name {
+  font-size: 3.2rem;
+}
+
+.matching-btn-container {
+  margin-top: 80px;
+}
+
+.matching-btn {
+  background-color: #1877f2;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 3px;
+  color: #fff;
+}
